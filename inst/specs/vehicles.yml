@@ -4,7 +4,7 @@ df:
 variables:
   id:
     trans: id
-    desc: Identificador único EPA
+    desc: "Identificador único EPA"
   make:
     trans: fabricante
     desc: Fabricante
@@ -13,9 +13,9 @@ variables:
     desc: Nome do modelo
   year:
     trans: ano
-    desc: Ano de fabricação
+    desc: "Ano de fabricação"
   class:
-    trans: clase
+    trans: classe
     values:
       Compact Cars: "Automóveis compactos"
       Large Cars: "Automóveis grandes"
@@ -51,9 +51,9 @@ variables:
       Vans Passenger: Vans de passageiros
       Vans, Cargo Type: Vans tipo carga
       Vans, Passenger Type: Vans tipo passageiros
-    desc: tipo de Automóveis
+    desc: "tipo de automóveis"
   trans:
-    trans: transmissão
+    trans: transmissao
     values:
       Auto (AV-S6): "Automático(AV-S6)"
       Auto (AV-S8): "Automático(AV-S8)"
@@ -104,12 +104,12 @@ variables:
       Manual(M7): Manual(M7)
     desc: "tipo de transmissão"
   drive:
-    trans: tração
+    trans: tracao
     values:
       2-Wheel Drive: Duas rodas
       4-Wheel Drive: Quatro rodas
-      4-Wheel or All-Wheel Drive: Quatro rodas ou  Tração nas quatro rodas
-      All-Wheel Drive: Tração nas quatro rodas
+      4-Wheel or All-Wheel Drive: "Quatro rodas ou  Tração nas quatro rodas"
+      All-Wheel Drive: "Tração nas quatro rodas"
       Front-Wheel Drive: Dianteira
       Part-time 4-Wheel Drive: Quatro rodas conectadas
       Rear-Wheel Drive: Traseira
@@ -121,25 +121,25 @@ variables:
     trans: motor
     desc: "tamanho do motor do automóvel, em litros"
   fuel:
-    trans: combustível
+    trans: combustivel
     values:
-      CNG: Gás natural comprimido
+      CNG: "Gás natural comprimido"
       Diesel: Diesel
       Electricity: Eletricidade
       Gasoline or E85: Gasolina ou E85
-      Gasoline or natural gas: Gasolina ou Gás natural
+      Gasoline or natural gas: "Gasolina ou Gás natural"
       Gasoline or propane: Gasolina ou propano
       Midgrade: Mediana
       Premium: Premium
       Premium and Electricity: Premium e eletricidade
-      Premium Gas or Electricity: Gás premium ou Eletricidade
+      Premium Gas or Electricity: "Gás premium ou Eletricidade"
       Premium or E85: Premium ou E85
       Regular: Regular
-      Regular Gas and Electricity: Gás regular e Eletricidade
-    desc: tipo de combustível
+      Regular Gas and Electricity: "Gás regular e Eletricidade'
+    desc: "tipo de combustível"
   hwy:
     trans: autopista
-    desc: "milhas por galão de combustível na autopista"
+    desc: "milhas por galão de combustível na estrada"
   cty:
     trans: cidade
     desc: "milhas por galão de combustível na cidade"
@@ -147,6 +147,6 @@ help:
   name: veículos
   alias: veículos
   title: "Dados de economia de combustível"
-  description: "Datos de economia de combustível da Agência de Proteção Ambiental(EPA) dos Estados Unidos, 1985-2015. Contém uma seleção de variáveis e não considera veículos com dados incompletos."
+  description: "Dados de economia de combustível da Agência de Proteção Ambiental(EPA) dos Estados Unidos, 1985-2015. Contém uma seleção de variáveis e não considera veículos com dados incompletos."
   usage: veiculos
-  format: Um data.frame con 33442 linhas e 12 colunas
+  format: Um data.frame com 33442 linhas e 12 colunas
